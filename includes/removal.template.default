@@ -1,0 +1,50 @@
+<h4>REQUEST FOR REMOVAL AND USE OF UNIVERSITY PROPERTY</h4>
+
+<p><small>In accordance with University policy, faculty and staff members must receive 
+authorization to remove University equipment from University buildings. This 
+authorization must be received from the department head who is of higher 
+administrative authority than the requester. When properly completed, this request 
+authorizes the removal and use of equipment as specified below.</small></p>
+
+<h5>EQUIPMENT TO BE REMOVED</h5>
+<p>
+<b>Equipment:</b> {{title}}<br />
+<b>Model:</b> {{model}}<br />
+<b>Replacement Cost:</b> {{cost}}
+</p>
+
+<h5>EQUIPMENT USE</h5>
+
+<p><b>Purpose:</b> This is a short term loan intended to facilitate productivity for faculty, 
+staff, and students affiliated with the EECS department.</p>
+
+<p><b>Period (not to exceed two weeks):</b> {{date_out}} until {{due_date_no_text}}</p>
+
+<h5>AGREEMENT BY REQUESTER</h5>
+
+<p><small>I hereby request authorization to remove and use the equipment as specified above.  
+I agree that the equipment is my full responsibility until returned, and that I will 
+provide reasonable care and security and return it by the stated date. In addition, 
+I agree to pay any repair or replacement costs up to the above stated replacement cost, 
+at the sole discretion of DCO, if the equipment is lost, stolen, damaged, or otherwise 
+cannot be returned in a satisfactory condition for any reason.</small></p>
+
+<p><b>Name:</b> {{name}} (username: {{user}})</p>
+
+<p><b>Signature:</b> _____________________________________________ <b>Date:</b> {{date_out}}</p>
+
+<h5>AUTHORIZATION BY DCO TO REMOVE AND USE EQUIPMENT</h5>
+
+<p>This request is hereby approved in accordance with Standard Practice Guide Section 520.3.</p>
+
+<p><b>Name:</b> ____________________________________________________________</p>
+
+<p><b>Signature:</b> _____________________________________________ <b>Date:</b> {{date_out}}</p>
+
+<h5>EQUIPMENT RETURN</h5>
+
+<p>I hereby acknowledge the return of the above described equipment in satisfactory condition.</p>
+
+<p><b>Name:</b> ____________________________________________________________</p>
+
+<p><b>Signature:</b> _____________________________________________ <b>Date:</b> _______________________</p>

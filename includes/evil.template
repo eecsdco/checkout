@@ -1,0 +1,15 @@
+This is an automated message.
+
+You are receiving this message because our records indicate that you checked out {{title}} on {{date_out}} and have not yet returned it.
+
+This item was due {{due_date}}.
+
+We would like to remind you that all checked out items are required to be returned within 48 hours and that you have had this item checked out for over 2 weeks. Please note that you are responsible for the total replacement cost of this item and will be charged accordingly if it is not returned within a reasonable time period after receiving this message.
+
+Please return this item to the {{building}} DCO office as soon as possible. You will not be able to check out any additional items until it is returned.
+
+You can review all of the items you currently have checked out by viewing your account summary at {{account_link}}.
+
+---
+DCO Staff
+help@eecs.umich.edu

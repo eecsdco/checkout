@@ -1,0 +1,13 @@
+This is an automated message.
+
+You are receiving this message because our records indicate that you checked out {{title}} on {{date_out}} and have not yet returned it.
+
+This item was due {{due_date}}.
+
+Please return this item to the {{building}} DCO office as soon as possible. You will not be able to check out any additional items until it is returned.
+
+You can review all of the items you currently have checked out by viewing your account summary at {{account_link}}.
+
+---
+DCO Staff
+help@eecs.umich.edu

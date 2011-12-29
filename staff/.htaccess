@@ -1,0 +1,7 @@
+SSLRequireSSL
+ErrorDocument 403 https://www.eecs.umich.edu/dco/tools/checkout/staff/records.php
+
+CosignProtected On
+AuthType Cosign
+AuthGroupFile /w/web/dco/staff/dcogroup
+Require group dcostaff
