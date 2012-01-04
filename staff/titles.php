@@ -47,7 +47,7 @@
 			echo "<p class='error'>An error occured while updating the title status.</p>";
 	}
 	if ( $action == "form_require" ) {
-		if ( $checkout->titles->update_form_require($_REQUEST["id"],$_REQUEST["flag"]) )
+		if ( $checkout->titles->update_form_required($_REQUEST["id"],$_REQUEST["flag"]) )
 			echo "<p class='success'>Title form requirement updated sucesfully.</p>";
 		else
 			echo "<p class='error'>An error occured while updating the title form requirement.</p>";

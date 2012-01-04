@@ -59,7 +59,7 @@ class Title
 	}
 	
 	// update an existing title
-	public function update($id,$type,$title,$notice,$model,$cost,$enable)
+	public function update($id,$type,$title,$notice,$model,$cost,$enable,$form_required = "null")
 	{
 		if ( $type == "null" ) $type = $this->type($id);
 		if ( $title == "null" ) $title = $this->title($id);
@@ -78,9 +78,9 @@ class Title
 		return $this->update($id,"null","null","null","null","null","null",$flag);
 	}
 	
-	public function update_form_require($id,$flag)
+	public function update_form_required($id,$flag)
 	{
-		return $this->update($id,"null","null","null","null","null",$flag,"null");
+		return $this->update($id,"null","null","null","null","null","null",$flag);
 	}
 	
 	public function enabled($id)
