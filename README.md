@@ -1,4 +1,4 @@
-EECS CHECKOUT SYSTEM
+EECS Checkout System
 ====================
 
 Checkout system for the EECS department that keeps track of loaned items and sends automated
