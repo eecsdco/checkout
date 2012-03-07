@@ -43,19 +43,22 @@ function valid_umich($user)
 // check for a valid EECS account
 function valid_eecs($user)
 {
-	$file = "/etc/mail/aliases";
-	$handle = fopen($file,"r");
-	if ( $handle )
-	{
-		$found = false;
-		while ( $line = fgets($handle) )
-		{
-			$sub = substr($line,0,strlen($user));
-			if ( strcasecmp($user,$sub) == 0 ) $found = true;
-		}
-		fclose($handle);
-	}
-	return $found;
+	// while alias file is broken, assume valid
+	return TRUE;
+	
+	//$file = "/etc/mail/aliases";
+	//$handle = fopen($file,"r");
+	//if ( $handle )
+	//{
+	//	$found = false;
+	//	while ( $line = fgets($handle) )
+	//	{
+	//		$sub = substr($line,0,strlen($user));
+	//		if ( strcasecmp($user,$sub) == 0 ) $found = true;
+	//	}
+	//	fclose($handle);
+	//}
+	//return $found;
 }
 
 // check for a valid uniquename
@@ -143,5 +146,3 @@ function show_dates($date_start,$admin = true,$selected = null,$spg520 = false) 
 	}
 	echo "</select>";
 }
-	
-?>

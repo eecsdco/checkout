@@ -148,6 +148,3 @@ class Title
 		return $result;
 	}	
 }
-
-?>
-

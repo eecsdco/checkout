@@ -58,6 +58,3 @@ foreach ( $old_db->query($sql) as $r ) {
 echo "</ul>";
 
 echo "ENDING";
-
-
-?>

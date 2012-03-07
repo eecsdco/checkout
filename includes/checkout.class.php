@@ -1,8 +1,5 @@
 <?php
 
-error_reporting(E_WARNING);
-ini_set('display_errors', '1');
-
 require "title.class.php";
 require_once "log.class.php";
 
@@ -482,5 +479,3 @@ class Checkout
 //$stats->bar_month();
 
 //echo "<br />end";
-
-?>

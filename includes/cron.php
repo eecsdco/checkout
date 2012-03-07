@@ -55,5 +55,3 @@ if ( $day != "6" AND $day != "7" )
 	echo "</ul>";
 } else echo "No reminders on weekends...<br />";
 echo "Ending cron session...<br />";
-
-?>

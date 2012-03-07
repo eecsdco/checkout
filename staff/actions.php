@@ -88,11 +88,13 @@ else if ( $action == "return" ) {
 }
 
 // encode variables for URL transport
-$message = urlencode($message);
-$notice = urlencode($notice);
-$error = urlencode($error);
+$message = urlencode(trim($message));
+$notice = urlencode(trim($notice));
+$error = urlencode(trim($error));
 
 // send user back to starting page
-header("Location: https://www.eecs.umich.edu/dco/tools/checkout/staff/$destination?message=$message&error=$error&notice=$notice&$options");
+$head = "Location: /dco/tools/checkout/staff/$destination?message=$message&error=$error&notice=$notice";
+if ( $options ) $head .= "&$options";
 
-?>
+header($head);
+exit();
