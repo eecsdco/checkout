@@ -26,19 +26,21 @@ Requirements
 
 Directory Structure
 -------------------
-
+```
 checkout
 	includes				contains all code and classes
 	layout					contains layout files
 	staff					contains staff management area
-	
+```
+
 Permissions
 -----------
 
 Apache must have R+W+E permission (7) on the following directories and files.
-
+```
 checkout/checkout.log
 checkout/includes (and everything below)
+```
 
 Cron Setup
 ----------
